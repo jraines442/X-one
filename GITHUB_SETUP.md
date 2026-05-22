@@ -6,7 +6,7 @@ Your X-one project is ready for GitHub! Here's how to push it.
 
 - A GitHub account
 - Git installed on your machine
-- The X-one project at `/home/claude/x-one`
+- The X-one project at `/my-apps/x-one`
 
 ## Step 1: Create a Repository on GitHub
 
@@ -23,7 +23,7 @@ Your X-one project is ready for GitHub! Here's how to push it.
 Copy the commands from GitHub (they'll look like this):
 
 ```bash
-cd /home/claude/x-one
+cd /my-apps/x-one
 git branch -M main
 git remote add origin https://github.com/YOUR_USERNAME/x-one.git
 git push -u origin main
@@ -36,7 +36,7 @@ Replace `YOUR_USERNAME` with your GitHub username.
 If you have SSH configured:
 
 ```bash
-cd /home/claude/x-one
+cd /my-apps/x-one
 git branch -M main
 git remote add origin git@github.com:YOUR_USERNAME/x-one.git
 git push -u origin main
@@ -142,7 +142,7 @@ Go to Settings and add topics:
 
 ### View commit log
 ```bash
-cd /home/claude/x-one
+cd /my-apps/x-one
 git log --oneline
 ```
 
@@ -175,7 +175,7 @@ Once on GitHub, you can share:
 
 ### Quick Setup
 ```bash
-cd /home/claude/x-one
+cd /my-apps/x-one
 git branch -M main
 git remote add origin https://github.com/YOUR_USERNAME/x-one.git
 git push -u origin main
@@ -215,7 +215,7 @@ git config --global user.email "your.email@example.com"
 
 Or for this repo only:
 ```bash
-cd /home/claude/x-one
+cd /my-apps/x-one
 git config user.name "Your Name"
 git config user.email "your.email@example.com"
 ```
