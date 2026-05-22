@@ -228,6 +228,4 @@ git config user.email "your.email@example.com"
 
 ---
 
-**Your X-one project is ready for the world! 🚀**
-
-Once you push to GitHub, update the repository links in your documentation and you're all set!
+**X-one project is ready for the world! 🚀**
