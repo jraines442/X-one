@@ -1,0 +1,44 @@
+# Source files
+src/
+*.ts
+!*.d.ts
+
+# Config files
+tsconfig.json
+tsconfig.node.json
+.eslintrc.json
+vite.config.ts
+
+# Development files
+.vscode
+.idea
+.DS_Store
+*.swp
+*.swo
+
+# Git
+.git
+.gitignore
+
+# Dependencies
+node_modules
+
+# Tests and coverage
+coverage
+.nyc_output
+test
+tests
+
+# CI/CD
+.github
+.gitlab-ci.yml
+.travis.yml
+
+# Docs
+docs
+CONTRIBUTING.md
+
+# Other
+TODO.md
+.env
+.env.local
